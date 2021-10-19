@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.article h1::after{
+    content: '';
+    background-color: #007bff;
+    display: block;
+    height: 3px;
+    width: 250px;
+    margin: 20px auto 5px;
+ }
+ .article a{
+     list-style: none;
+     color: #000;
+     outline: none;
+     text-decoration: none !important;
+ }
+ .article a:hover{
+     color: yellowgreen;
+     transition: 0.3s;
+ }
+ .article p{
+     font-size: 21px;
+     padding: 10px;
+ }
+ .article span{
+     color: yellowgreen;
+ }
+ .article .card{
+    padding: 5px;
+ }
+ 
+ #cost{
+     margin-left: 250px;
+     margin-top: -55px;
+     font-size: 20px;
+     color: orange;
+ }
+ #name{
+     padding: 10px;
+ }
+ small{
+    padding: 10px;
+ }
+ small a{
+    height: 70px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: #eee;
+    font-weight: 900;
+    margin-top: 30px;
+    text-decoration: none !important;
+    padding: 5px;
+ }
+
+ .title-box{
+    text-align: center;
+     margin: 100px auto 50px;
+ }
+
+ .title-box h1::after{
+    content: '';
+    background-color: #007bff;
+    display: block;
+    height: 3px;
+    width: 250px;
+    margin: 20px auto 5px;
+ }
+ .profile-box{
+     width: 240px;
+     height: 240px;
+     background: #ddd;
+     border-radius: 4px;
+     margin-bottom: 30px;
+     box-shadow: 0 10px 10px 10px rgba(115,193,255,0.1);
+     padding: 20px;
+     position: relative;
+ }
+ .profile-box img{
+     width: 100px;
+     position: absolute;
+     top: 20px;
+     right: 15px;
+     border-radius: 4px;
+ }
+ .profile-box h4{
+     margin-top: 25px;
+     margin-bottom: 5px;
+     color: #2196f3;
+     font-size: 17px;
+ }
+ small{
+     color: #555;
+ }
+ .social-link{
+     background: #2196f3;
+     text-align: center;
+     border-radius: 3px;
+     margin-top: 60px;
+ }
+ .social-link .fa{
+    margin: 5px;
+    color: #fff;
+    cursor: pointer;
+ }
+ .profile-box p{
+     text-align: center;
+     line-height: 24px;
+     color: #555;
+ }
+ .team{
+   margin-left: 115px !important;
+ }
+ .col-md-3{
+    margin:-12px;
+    padding:0px;
+ }
